@@ -47,10 +47,10 @@ p{
   font-size: 15px;
 }
 .button {
-  background-color: rgb(83, 73, 231); /* Green */
+  background-color: rgb(60, 50, 199);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 27px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
