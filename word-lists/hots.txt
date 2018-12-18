@@ -5,3 +5,89 @@ Objective
 Arrow
 Silence
 Wombo combo
+anchor
+reset
+Area of Effect
+Armor
+Assassin
+Backline
+Body Blocking
+Boss
+Bruiser
+Buff
+Bullying
+Burst Composition
+Channeled Ability
+Charged Ability
+Choke Point
+Collision
+Committing
+Crowd Control
+Debuff
+Diving
+Drafting
+Duel
+Facechecking
+Flanking
+Focus fire
+Follow up
+Frames
+Frontline
+Ganking
+Gap-closer
+Global Abilities
+Hard engage
+Healer
+Initiate
+Interrupting
+Juking
+Kiting
+Laning
+Learning Curve
+Line-of-sight
+Map Awareness
+Non-Heroic
+Objective-trading
+Out of Combat
+Overextending
+Overhealing
+Overkilling
+Peeling
+Game phase
+Poke
+Poke Composition
+Positioning
+Pressuring
+Proc
+Pushing
+Player vs Environment
+Player vs Player
+Roaming
+Rotating
+Self-sustain
+Semi-channeled
+Setup
+Shoving
+Sieging
+Single target
+Skillshot
+Skirmish
+Slow
+Snowballing
+Soaking
+Specialist
+Split-Pushing
+Squishy
+Stealth
+Stutter-stepping
+Support
+Tank
+Trading
+Unstoppable
+Uptime
+Useful damage
+Vulnerable
+Waveclear
+Win condition
+Winmore
+Zoning
