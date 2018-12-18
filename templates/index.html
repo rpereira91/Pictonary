@@ -10,15 +10,18 @@
 </head>
 <body>
     <p>Select your word difficulty: </p>
-    <form method="POST">
-        <select name="difficulty" method="GET" action="/">
-            {% for d in diff %}
-                <option value= "{{d}}">{{d}}</option>
-            {% endfor %}
-        </select>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="dropdown">
+        <form method="POST">
+            <select name="difficulty" method="GET" action="/" class="dropbtn">
+                {% for d in diff %}
+                <option class="dropdown-content" value= "{{d}}">{{d}}</option>
+                {% endfor %}
+            </select>    
+            <input type="submit" value="Submit" class="button">
+        </form>
+    </div>
     <br><br><br>
-    <h1>{{selected}}: {{word}}</h1>
+    <h2>Difficulty: {{selected}}</h2>
+    <h1>Word: {{word}}</h1>
 </body>
 </html>
