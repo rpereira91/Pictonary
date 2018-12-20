@@ -1,8 +1,9 @@
-from flask import Flask, render_template,request
-import random
-from flask_bootstrap import Bootstrap
+from flask import Flask, render_template,request,redirect,url_for
+import random,time
+from apscheduler.schedulers.background import BackgroundScheduler
+from hue_control import HueControl
+
 app = Flask(__name__)
-Bootstrap(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def method_name():
@@ -30,11 +31,13 @@ def get_word(difficulty):
 
 def check_time(s_time):
     if (time.time()-s_time) > 10:
-        print("TEST")
+        hc.flash_blubs()
         scheduler.remove_all_jobs()
 def start_time():
     return time.time()
 
 if __name__ == '__main__':
-  app.run(host= '127.0.0.1', port=8000, debug=True)
+    scheduler = BackgroundScheduler()
+    hc = HueControl('192.168.1.3')
+    app.run(host= '127.0.0.1', port=8000, debug=True)
  
